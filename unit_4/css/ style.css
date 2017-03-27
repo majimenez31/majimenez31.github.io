@@ -1,0 +1,8 @@
+body { 
+	background: Website bg.jpg;
+}
+
+h1, p { 
+	font-family: 'Noticia Text', serif; 
+	color: gold; 
+}
