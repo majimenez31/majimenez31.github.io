@@ -2,11 +2,11 @@ body {
 	background: Website bg.jpg;
 }
 
-h1, p { 
+h3, p { 
 	font-family: 'ABeeZee', sans-serif;
 	font-family: 'Dancing Script', cursive;
 }
-h1 {font-family:'ABeeZee', sans-serif; }
+h3 {font-family:'ABeeZee', sans-serif; }
 p {
 	font-family: 'Dancing Script', cursive;
 	 font-size: 31px;
