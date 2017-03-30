@@ -6,8 +6,9 @@ h3, p {
 	font-family: 'ABeeZee', sans-serif;
 	font-family: 'Dancing Script', cursive;
 }
-h3 {font-family:'ABeeZee', sans-serif; }
+h3 {font-family: 'Dancing Script', cursive;
+}
 p {
-	font-family: 'Dancing Script', cursive;
+	font-family: 'ABeeZee', sans-serif;
 	 font-size: 31px;
 } 
