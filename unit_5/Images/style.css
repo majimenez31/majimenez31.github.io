@@ -1,0 +1,14 @@
+body { 
+	background: Website_bg.jpg;
+}
+
+h3, p { 
+	font-family: 'ABeeZee', sans-serif;
+	font-family: 'Dancing Script', cursive;
+}
+h3 {font-family: 'Dancing Script', cursive;
+}
+p {
+	font-family: 'ABeeZee', sans-serif;
+	 font-size: 20px;
+} 
