@@ -13,7 +13,7 @@ p {
 	 font-size: 20px;
 } 
 header {
-    background-color: [grey];
+    background-color: grey;
     border: 1px black solid;
     padding: 20px;
  }   
@@ -37,8 +37,8 @@ header {
     background-color: grey;
     align-content: center;
     padding: 20px;
-    float: right;
-    width: 60%;
+    float: left;
+    width: 50%;
 
 }
 
@@ -67,6 +67,38 @@ footer {
     background-color: [#FF957E];
     border: 1px black solid;
     padding: 20px;
+
+#three_column {
+    background-color: grey;
+    border: 1px black solid;
+    padding: 20px; 
+}
+
+
+#left {
+    background-color: blue;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#right {
+    background-color: blue;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#center {
+	background-color: blue;
+	border: 1px black solid;
+	padding: 20px;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
 }
 
 div/section {
