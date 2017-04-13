@@ -13,7 +13,7 @@ p {
 	 font-size: 20px;
 } 
 header {
-    background-color: [#FFED74];
+    background-color: [grey];
     border: 1px black solid;
     padding: 20px;
  }   
@@ -33,12 +33,12 @@ header {
 }
 
 #right {
-	background: Website_bg.jpg, wrap;
+	background: Website_bg.jpg;
     background-color: grey;
     border: 1px black solid;
     padding: 20px;
     float: right;
-    width: 62%;
+    width: 60%;
 
 }
 
