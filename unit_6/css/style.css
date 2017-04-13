@@ -19,7 +19,7 @@ header {
  }   
     
  #two_column {
-    background-color: #FFB7CF;
+    background-color: grey;
     border: 1px black solid;
     padding: 20px;
 }
@@ -33,7 +33,7 @@ header {
 }
 
 #right {
-	background: Website_bg.jpg;
+	background: Website_bg.jpg, wrap;
     background-color: grey;
     border: 1px black solid;
     padding: 20px;
