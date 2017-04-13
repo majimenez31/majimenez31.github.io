@@ -35,10 +35,9 @@ header {
 #right {
 	background: Website_bg.jpg;
     background-color: grey;
-    align-content: center;
     padding: 20px;
     float: right;
-    width: 50%;
+    width: 62%;
 
 }
 
@@ -67,38 +66,6 @@ footer {
     background-color: [#FF957E];
     border: 1px black solid;
     padding: 20px;
-
-}
-#three_column {
-    background-color: grey;
-    border: 1px black solid;
-    padding: 20px;
-}
-
-#left {
-    background-color: blue;
-    border: 1px black solid;
-    padding: 20px;
-}
-
-#right {
-    background-color: blue;
-    border: 1px black solid;
-    padding: 20px;
-}
-
-#center {
-	background-color: blue;
-	border: 1px black solid;
-	padding: 20px;
-}
-.clearfix:after {
-	visibility: hidden;
-	display: block;
-	font-size: 0;
-	content: "";
-	clear: both;
-	height: 0;
 }
 
 div/section {
