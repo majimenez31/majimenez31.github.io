@@ -35,7 +35,7 @@ header {
 #right {
 	background: Website_bg.jpg;
     background-color: grey;
-    border: 1px black solid;
+    align-content: center;
     padding: 20px;
     float: right;
     width: 60%;
@@ -55,7 +55,7 @@ nav {
     background-color: [#E8C66A];
     border: 1px black solid;
     padding: 20px;
-    tex
+    float: left;
 }
 
 article {
