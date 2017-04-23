@@ -5,23 +5,23 @@ body {
 h3, p { 
 	font-family: 'ABeeZee', sans-serif;
 	font-family: 'Dancing Script', cursive;
-	font-color: white;
+	color: white;
 }
 
 h3  { 
 	  font-family: 'Dancing Script', cursive;
-	  font-color: white;
+	  color: white;
 }
 
 p {
-	font-family: 'ABeeZee', sans-serif;
+	 font-family: 'ABeeZee', sans-serif;
 	 font-size: 1.5em;
-	 font-color: white;
+	 color: white;
 } 
 
 header {
     background-color: black;
-    font-color: white;
+    color: white;
     border: 1px black solid;
     padding: 20px;
  }   
@@ -30,12 +30,12 @@ header {
     background-color: black;
     border: 1px black solid;
     padding: 20px;
-    font-color: white;
+    color: white;
 }
 
 #left {
     background-color: black;
-    font-color: white;
+    color: white;
     border: 1px black solid;
     padding: 20px;
     float: left;
@@ -65,20 +65,20 @@ nav {
     border: 1px black solid;
     padding: 20px;
     float: right;
-    font-color: white;
+    color: white;
 }
 
 article {
     background-color: black;
     border: 1px black solid;
     padding: 20px;
-    font-color: white;
+    color: white;
 }
 footer {
     background-color: black;
     border: 1px black solid;
     padding: 20px;
-    font-color: white;
+    color: white;
 }
 
 div {
@@ -86,7 +86,7 @@ div {
     border: 1px black solid;
     padding: 20px;
     width: 100%;
-    font-color: white;
+    color: white;
 }
 
 @media screen only and (max-width: 500px) {
@@ -99,7 +99,7 @@ margin: 0 auto;
 background-color: black;
 width: 4em;
 height: 2em;
-font-color: white;
+color: white;
 }
 
 
@@ -109,7 +109,7 @@ font-color: white;
 @media (min-width : 900px) {
   .menu {
     font-size: 1.2em;
-    font-color: white;
+    color: white;
   }
 }
 
