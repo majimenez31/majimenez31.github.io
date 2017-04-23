@@ -47,6 +47,7 @@ header {
     padding: 20px;
     float: right;
     width: 62%;
+    background-size: contain;
 
 }
 
@@ -82,6 +83,7 @@ footer {
 
 div {
     background-color: black;
+    background-image: contain;
     border: 1px black solid;
     padding: 20px;
     width: 100%;
