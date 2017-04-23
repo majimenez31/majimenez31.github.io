@@ -6,12 +6,16 @@ h3, p {
 	font-family: 'ABeeZee', sans-serif;
 	font-family: 'Dancing Script', cursive;
 }
-h3 {font-family: 'Dancing Script', cursive;
+
+h3  { 
+	  font-family: 'Dancing Script', cursive;
 }
+
 p {
 	font-family: 'ABeeZee', sans-serif;
 	 font-size: 20px;
 } 
+
 header {
     background-color: grey;
     border: 1px black solid;
@@ -78,6 +82,7 @@ div {
 @media screen only and (max-width: 500px) {
 body {
 font-size: 10px;
+margin: 0 auto;
 }
 
 .em-unit {
