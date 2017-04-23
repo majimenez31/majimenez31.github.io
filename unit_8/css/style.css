@@ -15,14 +15,15 @@ h3  {
 
 p {
 	 font-family: 'ABeeZee', sans-serif;
-	 font-size: 1.5em;
+	 font-size: 1em;
 	 color: white;
 } 
 
 header {
     background-color: black;
     color: white;
-    padding: 20px;
+    padding: 50px 20px 50px 100px;
+    font-size: 
  }   
     
  #two_column {
@@ -47,6 +48,7 @@ header {
     padding: 20px;
     float: right;
     width: 62%;
+    height: auto;
     background-size: contain;
 
 }
@@ -87,6 +89,7 @@ div {
     border: 1px black solid;
     padding: 20px;
     width: 100%;
+    height: auto;
     color: white;
 }
 
@@ -133,7 +136,6 @@ img {
     text-align: center;
   }
   li {
-    // visibility transition is on li because multiple transition selectors is not well supported
     transition: visibility .25s linear;
     display: inline-block;
     border: 1px solid;
@@ -145,7 +147,6 @@ img {
 
 @media (min-width : 651px) {
   .menu {
-      li { // nested menu
         ul {
           display: none;
           position: absolute;
