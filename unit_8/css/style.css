@@ -54,7 +54,7 @@ nav {
     background-color: [#E8C66A];
     border: 1px black solid;
     padding: 20px;
-    float: left;
+    float: right;
 }
 
 article {
@@ -68,8 +68,22 @@ footer {
     padding: 20px;
 }
 
-div/section {
+div {
     background-color: [#FFE2B8];
     border: 1px black solid;
     padding: 20px;
+    width: 90%;
+}
+
+@media screen only and (max-width: 500px) {
+body {
+font-size: 10px;
+}
+
+.em-unit {
+background-color: grey;
+width: 4em;
+height: 2em;
+}
+
 }
