@@ -5,35 +5,33 @@ body {
 h3, p { 
 	font-family: 'ABeeZee', sans-serif;
 	font-family: 'Dancing Script', cursive;
-	font-color: white;
 }
 
 h3  { 
 	  font-family: 'Dancing Script', cursive;
-	  font-color: white;
 }
 
 p {
 	font-family: 'ABeeZee', sans-serif;
 	 font-size: 1.5em;
-	 font-color: white;
 } 
 
 header {
     background-color: black;
     border: 1px black solid;
     padding: 20px;
-    font-color: white;
  }   
     
  #two_column {
     background-color: black;
     border: 1px black solid;
     padding: 20px;
+    font-color: white;
 }
 
 #left {
     background-color: black;
+    font-color: white;
     border: 1px black solid;
     padding: 20px;
     float: left;
@@ -63,17 +61,20 @@ nav {
     border: 1px black solid;
     padding: 20px;
     float: right;
+    font-color: white;
 }
 
 article {
     background-color: black;
     border: 1px black solid;
     padding: 20px;
+    font-color: white;
 }
 footer {
     background-color: black;
     border: 1px black solid;
     padding: 20px;
+    font-color: white;
 }
 
 div {
@@ -81,6 +82,7 @@ div {
     border: 1px black solid;
     padding: 20px;
     width: 100%;
+    font-color: white;
 }
 
 @media screen only and (max-width: 500px) {
@@ -93,6 +95,7 @@ margin: 0 auto;
 background-color: black;
 width: 4em;
 height: 2em;
+font-color: white;
 }
 
 
@@ -102,6 +105,7 @@ height: 2em;
 @media (min-width : 900px) {
   .menu {
     font-size: 1.2em;
+    font-color: white;
   }
 }
 
