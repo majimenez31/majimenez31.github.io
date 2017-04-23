@@ -22,7 +22,6 @@ p {
 header {
     background-color: black;
     color: white;
-    border: 1px black solid;
     padding: 20px;
  }   
     
@@ -102,7 +101,10 @@ height: 2em;
 color: white;
 }
 
-
+img {
+    max-width: 100%;
+    height: auto;
+}
 
 }
 
