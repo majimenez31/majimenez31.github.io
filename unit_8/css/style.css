@@ -70,6 +70,9 @@ nav {
     color: white;
 }
 
+nav a {
+  font-size: 12px;
+}
 article {
     background-color: black;
     border: 1px black solid;
@@ -93,59 +96,69 @@ div {
     color: white;
 }
 
-@media screen only and (max-width: 500px) {
-body {
-font-size: 10px;
-margin: 0 auto;
-}
-
-.em-unit {
-background-color: black;
-width: 4em;
-height: 2em;
-color: white;
-}
-
 img {
-    max-width: 100%;
-    height: auto;
+  width: 100%;
 }
+@media screen and (max-width: 500px) {
+  body {
+    font-size: 10px;
+    margin: 0 auto;
+  }
+
+  .em-unit {
+    background-color: black;
+    width: 4em;
+    height: 2em;
+    color: white;
+  }
+
+  img {
+      max-width: 100%;
+      height: auto;
+  }
 
 }
 
-@media (min-width : 900px) {
+@media screen and (min-width: 900px) {
   .menu {
     font-size: 1.2em;
     color: white;
   }
-}
-
-.menu {
-  padding: 0.5em;
-  background: #eee;
-  min-height: 2em;
-  line-height: 1em;
-
-  > ul {
-    transition: max-height .25s linear;    
+  .menu {
+    padding: 0.5em;
+    background: #eee;
+    min-height: 2em;
+    line-height: 1em;
+  }
+  .menu ul {
+    transition: max-height .25s linear;  
+     margin: 0;
+      padding: 0;
+      text-align: center;
+  }
+   
+  .menu li {
+     transition: visibility .25s linear;
+      display: inline-block;
+      border: 1px solid;
+      padding: .45em 1.1em;
+      margin: 0 .3em;
+      position: relative;
   }
   
-  ul {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-  }
-  li {
-    transition: visibility .25s linear;
-    display: inline-block;
-    border: 1px solid;
-    padding: .45em 1.1em;
-    margin: 0 .3em;
-    position: relative;
-  }
+
 }
 
-@media (min-width : 651px) {
+
+@media (min-width: 651px) {
+
+  .menu ul {
+
+  }
+
+  .menu ul:hover {
+
+  }
   .menu {
         ul {
           display: none;
