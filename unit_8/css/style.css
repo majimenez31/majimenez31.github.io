@@ -50,6 +50,7 @@ header {
     width: 62%;
     height: auto;
     background-size: contain;
+    align-content: center;
 
 }
 
@@ -71,7 +72,6 @@ nav {
 
 nav a {
   font-size: 12px;
-  float: right;
   padding: 20px;
 }
 article {
@@ -99,7 +99,7 @@ div {
 
 img {
   width: 100%;
-  align-content: center;
+
 }
 
 @media screen and (max-width: 500px) {
