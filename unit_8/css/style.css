@@ -23,7 +23,7 @@ header {
     background-color: black;
     color: white;
     padding: 50px 20px 50px 100px;
-    font-size: 
+
  }   
     
  #two_column {
@@ -72,6 +72,7 @@ nav {
 nav a {
   font-size: 12px;
   float: right;
+  padding: 20px;
 }
 article {
     background-color: black;
@@ -98,7 +99,9 @@ div {
 
 img {
   width: 100%;
+  align-content: center;
 }
+
 @media screen and (max-width: 500px) {
   body {
     font-size: 10px;
